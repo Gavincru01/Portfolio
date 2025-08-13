@@ -1,0 +1,43 @@
+h1 {
+  color: green;
+  border-bottom: solid thin green;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  background-color: #3fa46a;
+  text-align: center;
+  margin-top: 20px;
+  padding: 24px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3fa46a;
+  width: 100%;
+}
+.menuItem {
+  transition: 0.3s ease;
+  background-color: #3fa46a;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: solid 4px #3fa46a;
+  border-bottom: solid 4px #3fa46a;
+  margin: 0 20px;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+}
+.menuItem:hover {
+  border-top: solid 4px #fff;
+  border-bottom: solid 4px #fff;
+}
